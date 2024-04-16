@@ -1,0 +1,112 @@
+h1 {
+    text-align: center;
+  }
+
+
+img{
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+
+h3{
+    margin: 5px;
+}
+
+.datocurioso{
+    width: auto;
+}
+
+.container{
+    background-color: gray;
+    color: white;
+    margin-top:20px ;
+}
+
+.row{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.col{
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card,.overlay{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 23px;
+    background: rgb(10, 10, 10);
+    cursor: pointer;
+
+}
+
+.card{
+    background: #333;
+
+}
+
+.overlay{
+    background: #00a697;
+}
+
+.hola{
+    text-align: center;
+    margin: 10px 0;
+    color: #fff;
+    font-weight: 100;
+    z-index: 1;
+}
+
+.magictime {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}
+.row1{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.col1{
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1,.overlay1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 23px;
+    background: rgb(10, 10, 10);
+    cursor: pointer;
+
+}
+
+.card1{
+    background: #333;
+
+}
+
+.overlay1{
+    background: #ec0c0c;
+}
