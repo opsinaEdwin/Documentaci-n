@@ -47,9 +47,9 @@ while ($row = $stmt->fetch())
 
    	$sheet->setCellValue("A".$i, $row["idusuario"]);
 	$sheet->setCellValue("B".$i, $row["nombre"]);
-	$sheet->setCellValue("B".$i, $row["apellido"]);
-	$sheet->setCellValue("C".$i, $row["correo"]);
-	$sheet->setCellValue("C".$i, $row["contraseña"]);
+	$sheet->setCellValue("C".$i, $row["apellido"]);
+	$sheet->setCellValue("D".$i, $row["correo"]);
+	$sheet->setCellValue("E".$i, $row["contraseña"]);
 	$i++;
 }
 $writer = new Xlsx($spreadsheet);
