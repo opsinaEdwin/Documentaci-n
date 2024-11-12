@@ -37,27 +37,46 @@
     <p>Las sesiones permiten almacenar datos del usuario en el servidor de forma temporal y segura. 
         Por ejemplo, datos como su nombre, ID de usuario, o incluso preferencias verificar la identidad 
         del usuario en cada página, ayudando a garantizar que solo los usuarios autorizados accedan a sus 
-        respectivas cuentas y áreas restringidas</p>
+        respectivas cuentas y áreas restringidas.</p>
     <p>Para esto se deben generar formularios que envien la informacion del usuario a la base de datos, esto 
         permite identificar que usuarios estan usando la aplicación y personalizar la aplicacion para cada 
-        persona</p>
+        persona.</p>
 </section>
 <section>
     <h2>Exportar datos a Excel</h2>
     <p>
-        
+        La exportacion de los datos en Excel nos ayuda a manejar de una manera los datos que manejamos, realizar
+        de una forma rapida filtros, analisis,graficas, informes de la actividad de la aplicacion y apartir de esta
+        informacion se puede mejorar la experiencia del usuario con el fin de que mas personas conozcan y usen la
+        aplicacion.  
     </p>
+    <p>
+        En este caso se uso la aplicacion Composer. Composer es un sistema de gestión de paquetes para 
+        programar en PHP el cual provee los formatos estándar necesarios para manejar dependencias y librerías 
+        de PHP. En este caso el formato usado es XLSX para importar los datos de la base de datos a un excel.
+    </p>
+    <img src="imagenes/logocomposer.png" class="img-thumbnail" alt="Logo de Composer">
 </section>
 <section>
     <h2>Consultas multicriterio</h2>
     <p>
-
+        En SQL se utilizan consultas con mas de un criterio para que la consulta sea mas especifica y la 
+        informacion que se muestre sea la deseada. En el caso mostrado se selecciono el nombre del usuario,
+        el nombre del juego y el puntaje que obtuvo la persona, despues de esto se realiza el comando JOIN para
+        unir las tablas y por ultimo se decretan los criterios. El primer criterio es que tiene que ser el 
+        juego que tiene el ID 1 y la segunda condicion es que el puntaje del jugador sea mayor a 600 puntos.
     </p>
+    <img src="imagenes/consulta.png" class="img-thumbnail" alt="Consulta SQL">
 </section>
 <section>
     <h2>Encriptacion</h2>
     <p>
-
+        Es un proceso mediante el cual se transforman los datos en un formato codificado, de modo que solo las 
+        personas autorizadas con la clave adecuada pueden leerlos.
+    </p>
+    <p>
+        El metodo que se uso fue el hashing. Este convierte los datos en una cadena de longitud fija. Es un 
+        proceso unidireccional, lo que significa que no se puede revertir para obtener el dato original.
     </p>
 </section>
 </body>
